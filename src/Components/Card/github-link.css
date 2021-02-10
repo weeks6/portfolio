@@ -1,0 +1,16 @@
+.github-link {
+  position: relative;
+  display: block;
+  margin-right: 16px;
+  background-image: url("../../Images/github.png");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.github-link:hover {
+  opacity: 0.5;
+}

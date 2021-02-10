@@ -1,0 +1,15 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  max-width: 420px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.1s ease-in-out;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-4px);
+  }
+}
